@@ -1,8 +1,19 @@
-let number = 4;
+const number = 4;
+let atsakymas;
 
-    while (prompt('guess number') === number) {
-        alert('succses');
+do {
+    atsakymas = prompt('spek skaiciu');
+    if (atsakymas < number) {
+        alert('too low')
+    } else if (atsakymas > number) {
+        alert('to high')
     }
 
+} while (number != atsakymas);
+
+
+
+
+alert('atspejai');
 
 
