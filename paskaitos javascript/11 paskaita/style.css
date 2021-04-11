@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .color-danger {
+    color: red;
+  }
+  
+  .icon {
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-left: 0.75em;
+    line-height: 1em;
+    cursor: pointer;
+  }
+
+  .stats-box {
+    padding: 20px;
+  }
+  
+  

@@ -1,0 +1,14 @@
+.mainCalc {
+    width: 250px;
+    height: 300px;
+    border: solid 1px black;
+}
+
+#input-txt {
+    width: 90%;
+    height: 50px;
+}
+
+.btn {
+    padding: 20px;
+}

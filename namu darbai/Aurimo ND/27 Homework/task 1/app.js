@@ -1,7 +1,27 @@
 
-const rapLyrics = ['jou', 'cekirout', 'I', 'am', 'raper'];  
+const rapLyrics = [ {
+    word: 'jou',
+    naughty: false
+},
+{
+    word: 'cekirout',
+    naughty: false
+},
+{
+    word: 'I',
+    naughty: false
+},
+{
+    word: 'betch',
+    naughty: true
+}];  
 
-let search = prompt('find lyrics');
+const search = prompt('whats your age?');
 
-let find = rapLyrics.map((item) => search === item ? alert('found: ' + item) : alert('not found'));
+// function getWords (value) {
+//     return search === value;
+// };
 
+// const result = rapLyrics.find(getWords);
+
+// search === result ? alert('found: ' + result) : alert('not found')
