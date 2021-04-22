@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    width: 65%;
+    height: 550px;
+    border: solid 1px  rgb(211, 205, 205);
+    background-color: rgb(211, 205, 205);
+}
+
+.input-text {
+    margin: 5px 0 20px 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.label-div {
+    width: 20%;
+    margin: 5px 0 5px 10px;
+}
+
+#input-form {
+    margin: 30px 0 0 0;
+}
+
+.output-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 550px;
+}
+
+.input-container {
+    width: 30%;
+}
+
+#output {
+    display: flex;
+    border: 1px black solid;
+    width: 55%;
+    height: 250px;
+
+}
+
+.cardOutput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+}
+
+.img {
+    width: 60%;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg');
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 5px;
+}
+
+.p-container {
+    margin: 5px 0 5px 0;
+}
+
+
+.elements-div {
+    width: 70%;
+    height: 40px;
+}
+
+.btn {
+    background-color: rgb(190,124,124);
+    margin: 0 0 0 10px;
+    padding: 8px 88px;
+    border-radius: 4px;
+    border: white;
+    cursor: pointer;
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: rgb(165, 86, 86);
+}
